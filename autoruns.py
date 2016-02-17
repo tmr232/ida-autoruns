@@ -28,6 +28,8 @@ class Autoruns(idaapi.plugin_t):
 
         os.unlink(path)
 
+        exec(self._code)
+
     @property
     def _code(self):
         try:
