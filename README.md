@@ -3,12 +3,18 @@
 IDA-Autoruns is a simple plugin to make a script run automatically
 every time you open a specific IDB.
 
+## Installation
+1. `pip install ida-settings`
+1. Change `EDITOR` to your editor of choice.
+    **Important:** The editing takes place once the editor process terminates.
+1. Copy `autoruns.py` into IDA's plugin directory.
+
 ## Usage
 
-1. Install the plugin
-1. Set the `EDITOR` variable in the plugin to the desired editor
 1. Press `View -> Edit Autoruns` to edit the autoruns script
 1. Be sure to save the IDB, as it will store the script
+1. The script will run automatically when you save it,
+    and every time you load the IDB.
 
 
 ## Drawbacks
