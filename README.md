@@ -3,6 +3,12 @@
 IDA-Autoruns is a simple plugin to make a script run automatically
 every time you open a specific IDB.
 
+> [!CAUTION]
+> ## Security Notice
+> This is a _very_ bad idea for anything you get from other people.
+> It just runs code. 
+> No sandboxing, no verification.
+
 ## Installation
 1. `pip install ida-settings`
 1. Change `EDITOR` to your editor of choice.
